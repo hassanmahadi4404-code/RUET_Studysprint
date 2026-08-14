@@ -4,11 +4,11 @@
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://ruet-studysprint.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://ruet-studysprint-v2.vercel.app/)
 
 ## Live Demo
 
-Visit **[ruet-studysprint.vercel.app](https://ruet-studysprint.vercel.app/)**.
+Visit **[ruet-studysprint.vercel.app](https://ruet-studysprint-v2.vercel.app/)**.
 
 ## About the Project
 
