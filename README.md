@@ -4,11 +4,11 @@
 
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://ruet-studysprint-v2.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Live_on-Vercel-black?logo=vercel)](https://ruet-studysprint-v2.vercel.app/)
 
 ## Live Demo
 
-Visit **[ruet-studysprint.vercel.app](https://ruet-studysprint-v2.vercel.app/)**.
+Try StudySprint at **[ruet-studysprint-v2.vercel.app](https://ruet-studysprint-v2.vercel.app/)**.
 
 ## About the Project
 
@@ -16,7 +16,7 @@ RUET students often study from scattered PDFs, lecture notes, slides, and videos
 
 StudySprint brings these tasks into one workspace. A student can upload a course file or paste notes, then use AI to understand, plan, and practise the material.
 
-## Main Features
+## Features
 
 - **Ask your notes:** Get a simple answer based on the selected course material.
 - **Study plan:** Generate a focused exam-preparation plan for up to 14 days.
@@ -47,7 +47,7 @@ StudySprint brings these tasks into one workspace. A student can upload a course
 
 No database or external file storage is required.
 
-## Run Locally
+## Getting Started
 
 ### Requirements
 
@@ -57,9 +57,9 @@ No database or external file storage is required.
 
 ### Installation
 
+Clone or download this repository, then open the project folder in a terminal:
+
 ```bash
-git clone <your-repository-url>
-cd ruet-studysprint
 pnpm install
 cp .env.example .env.local
 ```
@@ -71,7 +71,7 @@ GOOGLE_GENERATIVE_AI_API_KEY=your_google_ai_studio_key
 GEMINI_MODEL=gemini-3.6-flash
 ```
 
-Start the development server:
+Start the app:
 
 ```bash
 pnpm dev
@@ -82,7 +82,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 > [!IMPORTANT]
 > Never commit `.env.local` or share your API key publicly. If a key is exposed, rotate it immediately.
 
-## Available Commands
+## Commands
 
 | Command | Purpose |
 | --- | --- |
@@ -139,6 +139,8 @@ pnpm lint
 pnpm build
 ```
 
-## Hackathon
+## Project Story
 
-StudySprint was created for the **Reimagine Learning at RUET** challenge to make exam preparation clearer, faster, and more practical for students.
+StudySprint was created for the **Reimagine Learning at RUET** challenge. The goal is to make exam preparation clearer, faster, and more practical by turning scattered course materials into a simple learning path:
+
+**Understand → Plan → Practise → Improve**
